@@ -31,7 +31,7 @@ def Btn_click():
     names_list = []
     tmp = names.get("1.0", END).split(sep= "\n")
     for i in range(int(N)):
-        names_list.append(tmp[i])
+        names_list.append(i)
     print(N, teams)
     print(names_list)
     team = Random_Team_Func(int(N), int(teams), names_list)
